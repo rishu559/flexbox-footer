@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Montserrat:wght@400;600;900&display=swap');
+
+
+.footer-section{
+    background-color: #222;
+    padding: 2rem 1rem;
+}
+.footer{
+    
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1rem;
+}
+
+.footer h2{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1.25rem;
+    margin:2rem 0 1rem 0;
+    color:orangered;
+}
+
+.inside-div{
+    gap:10px;
+    color:beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.inside-div>p{
+    margin: 0;
+}
+.inside-div >a{
+    text-decoration: none;
+    color: beige;
+}
+
+.footer .newsletter button{
+    background-color: orangered;
+}
+.footer .newsletter box-icon{
+    background-color: orangered;
+}
+.logodiv{
+    display: flex;
+    justify-content: center;
+}
+box-icon{
+    /* width: 200%; */
+    /* width: 100%;
+    height: 100%; */
+    width:15%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter input{
+    height:25px;
+    margin: 0;
+}
+.newsletter .btn {
+    margin: 0;
+    background: orangered;
+    border: 0;
+    border-radius: 5px;
+    font-family: Courier New;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+  }
+  
+  .newsletter .btn:hover {
+    background: red;
+    background-image: -webkit-linear-gradient(top, red, red);
+    background-image: -moz-linear-gradient(top, red, red);
+    background-image: -ms-linear-gradient(top, red, red);
+    background-image: -o-linear-gradient(top, red, red);
+    background-image: linear-gradient(to bottom, red, red);
+    text-decoration: none;
+  }
